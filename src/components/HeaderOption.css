@@ -1,0 +1,32 @@
+.headerOption{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: grey;
+    cursor: pointer;
+}
+.headerOption:hover{
+    color: black;
+}
+.headerOption_title{
+    font-size: 12px;
+    font-weight: 400;
+}
+.headerOption_icon{
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+}
+
+.logout_model{
+    position: absolute;
+    top: 130%;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    background: #fff;
+}
